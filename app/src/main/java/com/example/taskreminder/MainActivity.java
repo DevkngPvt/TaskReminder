@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-    private int hi;
+    private int repeatCount = 0 ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
